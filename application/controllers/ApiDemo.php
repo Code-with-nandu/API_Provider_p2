@@ -51,5 +51,21 @@ class ApiDemo extends RestController
 
         }
     }
+     // Find employee by ID
+     public function findEmp_get($id)
+     {
+         $result_find = $this->Employee_model->findEmp($id);
+ 
+         if($result_find) {
+             $this->response($result_find, RestController::HTTP_OK); // 200 OK
+         } else {
+             $this->response([
+                 'status' => false,
+                 'message' => 'Employee not found'
+             ], RestController::HTTP_NOT_FOUND); // 404 Not Found
+         }
+     }
+ 
+ 
 
 }

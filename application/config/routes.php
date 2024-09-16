@@ -56,3 +56,5 @@ $route['translate_uri_dashes'] = FALSE;
 ///
 $route['api'] = 'ApiDemo/users';
 $route['api/store'] = 'ApiDemo/storeEmp';
+
+$route['api/find/(:any)'] ='ApiDemo/findEmp/$1';
