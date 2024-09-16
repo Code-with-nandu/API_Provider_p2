@@ -11,19 +11,18 @@ class ApiDemo extends RestController
     public function __construct()
     {
         parent::__construct();
+        $this->load->model('Employee_model');
         // Load models if necessary
     }
 
     public function users_get()
     {
-        // Sample data that will be returned as JSON
-        $users = [
-            ['id' => 1, 'name' => 'John Doe', 'email' => 'john@example.com'],
-            ['id' => 2, 'name' => 'Jane Smith', 'email' => 'jane@example.com']
-        ];
+        $emp = new Employee_model;
+        $result_emp = $emp ->insert_employee();
+    
+    
 
         // Respond with data and HTTP status code
-        $this->response($users, RestController::HTTP_OK);
+        $this->response($result_emp, RestController::HTTP_OK);
     }
 }
-?>
