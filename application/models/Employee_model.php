@@ -9,4 +9,10 @@ class Employee_model extends CI_Model {
         $query = $this->db->get('employee');
         return  $query->result();
     }
+    public function inn_employee($data)
+    {
+        return $this ->db->insert('employee',$data); 
+    }
+
+
 }
