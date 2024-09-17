@@ -59,3 +59,6 @@ $route['api/store'] = 'ApiDemo/storeEmp';
 
 $route['api/find/(:any)'] ='ApiDemo/findEmp/$1';
 $route['api/update/(:any)'] = 'ApiDemo/updateEmp/$1';
+
+$route['api/delete/(:any)'] = 'ApiDemo/deleteEmp/$1';
+
