@@ -30,6 +30,17 @@ class Employee_model extends CI_Model {
         $this->db->where('id',$id);
         return  $this->db->delete('employee',['id'=>$id]);
     }
+    public function get_employees_paginated($limit, $offset)
+    {
+        $query = $this->db->get('employees', $limit, $offset); // Assuming 'employees' is your table
+        return $query->result();
+    }
+
+    // Get the total count of employees
+    public function get_total_employees()
+    {
+        return $this->db->count_all('employees'); // Assuming 'employees' is your table
+    }
 
 
 

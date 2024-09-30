@@ -15,16 +15,44 @@ class ApiDemo extends RestController
         // Load models if necessary
     }
 
-    public function users_get()
-    {
-        $emp = new Employee_model;
-        $result_emp = $emp ->insert_employee();
-    
-    
+    // public function users_get()
+    // {
+    //     $emp = new Employee_model;
+    //     $result_emp = $emp ->insert_employee();
 
-        // Respond with data and HTTP status code
-        $this->response($result_emp, RestController::HTTP_OK);
-    }
+    //     // Respond with data and HTTP status code
+    //     $this->response($result_emp, RestController::HTTP_OK);
+    // }
+
+
+    public function users_get()
+{
+    $page = $this->input->get('page') ? (int)$this->input->get('page') : 1; // Get current page from the query string, default to 1
+    $limit = $this->input->get('limit') ? (int)$this->input->get('limit') : 10; // Get the limit from the query string, default to 10
+    $offset = ($page - 1) * $limit; // Calculate the offset
+
+    $emp = new Employee_model;
+
+    // Fetch employees with pagination
+    $result_emp = $emp->get_employees_paginated($limit, $offset); // Create a method to handle pagination
+
+    // Total count of records
+    $total_count = $emp->get_total_employees(); // Add a method to return total employee count
+
+    // Calculate total pages
+    $total_pages = ceil($total_count / $limit);
+
+    $response_data = [
+        'data' => $result_emp,
+        'current_page' => $page,
+        'total_pages' => $total_pages,
+        'total_records' => $total_count,
+    ];
+
+    // Respond with paginated data and HTTP status code
+    $this->response($response_data, RestController::HTTP_OK);
+}
+
     public function storeEmp_post(){
         $emp = new Employee_model;
         $data=[
