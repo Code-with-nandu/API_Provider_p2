@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 if ($_SERVER['HTTP_HOST'] == 'localhost') {
     $config['base_url'] = 'http://localhost/1_api/API_Provider_p2';
 } else {
-    $config['base_url'] = 'https://krishnendudalui.in.net/API_Consumer/';
+    $config['base_url'] = 'https://krishnendudalui.in.net/API_Provider_p2/';
 }
 /*
 Change to 'production' for live environment
