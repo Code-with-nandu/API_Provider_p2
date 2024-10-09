@@ -13,6 +13,11 @@ class Employee_model extends CI_Model {
     {
         return $this ->db->insert('employee',$data); 
     }
+    public function get_all_employees_descending() {
+        $this->db->order_by('id', 'DESC'); // Change 'id' to the appropriate field if needed
+        $query = $this->db->get('employees');
+        return $query->result_array(); // Return as an array
+    }
     public function findEmp($id)
     {
         $this->db->where('id',$id);
