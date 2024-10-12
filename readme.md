@@ -38,7 +38,7 @@ This guide will walk you through setting up two CodeIgniter projects: the first 
 
 ### Step 6: 
 - 🔭 API key credentials   [https://krishnendudalui.in.net/API_Consumer_p2/index.php/client/api_key_form ](https://krishnendudalui.in.net/API_Consumer_p2/index.php/client/api_key_form)
-![API key credentials image](https://drive.google.com/file/d/1-zebCCnkuFto6GYCGHmSdBxgx2B1o4hW/view?usp=drive_link)
+![API key credentials image](https://drive.google.com/file/d/1-zebCCnkuFto6GYCGHmSdBxgx2B1o4hW/view)
 
 
 
