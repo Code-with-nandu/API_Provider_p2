@@ -21,7 +21,7 @@
 
 - ⚡ Fun fact **Daily Meditation**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me:9433532329//9143122451</h3>
 <p align="left">
 <a href="https://fb.com/krishnendu dalui" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="krishnendu dalui" height="30" width="40" /></a>
 </p>              
