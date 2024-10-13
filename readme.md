@@ -36,32 +36,50 @@ This guide will walk you through setting up two CodeIgniter projects: the first 
 
 
 
-### Step 6: 
-- 🔭 API key credentials   [Program Registration Online](https://krishnendudalui.in.net/API_Consumer_p2/index.php/client/api_key_form)
-![API key credentials image](https://drive.google.com/drive/u/0/folders/1-z34g1odcSID8XcGPsUW8AJ1s61BUo9L)
 
-https://drive.google.com/drive/u/0/folders/1-z34g1odcSID8XcGPsUW8AJ1s61BUo9L
 
-https://drive.google.com/file/d/109zOfNiuWce0aT-j7FEe9h8QyAmIrSMI/view?usp=drive_link, https://drive.google.com/file/d/1086KpomsQ7E-7WAxG-ZXF_LS8O54yfoN/view?usp=drive_link, https://drive.google.com/file/d/102-6f0zWhtqbqy44CCMYpKt5EpVqdZng/view?usp=drive_link, https://drive.google.com/file/d/10-zoZIjZZ7jhjisJ4KiP-hhjWVD_0ini/view?usp=drive_link, https://drive.google.com/file/d/101uQO2T1PY6d4B50JvSuIWqcA8sEf1Ae/view?usp=drive_link, https://drive.google.com/file/d/1-zebCCnkuFto6GYCGHmSdBxgx2B1o4hW/view?usp=drive_link
-
-# My Project
-
-### Step 1
-![Image 1](https://drive.google.com/uc?id=109zOfNiuWce0aT-j7FEe9h8QyAmIrSMI)
-
-### Step 2
-![Image 2](https://drive.google.com/uc?id=1086KpomsQ7E-7WAxG-ZXF_LS8O54yfoN)
-
-### Step 3
-![Image 3](https://drive.google.com/uc?id=102-6f0zWhtqbqy44CCMYpKt5EpVqdZng)
-
-### Step 4
-![Image 4](https://drive.google.com/uc?id=10-zoZIjZZ7jhjisJ4KiP-hhjWVD_0ini)
+# GET Method :
 
 ### Step 5
+## (GET Method :Call all  data )[https://krishnendudalui.in.net/API_Provider_p2/index.php/api]
+![Image 1](https://drive.google.com/uc?id=109zOfNiuWce0aT-j7FEe9h8QyAmIrSMI)
+
+### Step 6
+
+## (GET Method :Specific call through id )[https://krishnendudalui.in.net/API_Provider_p2/index.php/api/find/9]
+
+![Image 2](https://drive.google.com/uc?id=1086KpomsQ7E-7WAxG-ZXF_LS8O54yfoN)
+
+# PUT Method :
+### Step 7
+## (PUT Method :Update data thorough PUT method  )[https://krishnendudalui.in.net/API_Provider_p2/index.php/api/update/10]
+![Image 3](https://drive.google.com/uc?id=102-6f0zWhtqbqy44CCMYpKt5EpVqdZng)
+![ {
+        "first_name": "Art Of Living1",
+        "last_name": "Internal Center1",
+        "phone": "56565656561",
+        "email": "jayravi@artofliving.org1"
+    }
+]()
+
+
+# POST Method :
+### Step 8
+## (PUT Method :New  data thorough POST method  )[https://krishnendudalui.in.net/API_Provider_p2/index.php/api/store]
+
+![Image 4](https://drive.google.com/uc?id=10-zoZIjZZ7jhjisJ4KiP-hhjWVD_0ini)
+
+
+
+
+# DELETE Method :
+### Step 8
+## (PUT Method :DELETE data thorough DELETE method  )[https://krishnendudalui.in.net/API_Provider_p2/index.php/api/delete/41]
+
 ![Image 5](https://drive.google.com/uc?id=101uQO2T1PY6d4B50JvSuIWqcA8sEf1Ae)
-# My Project
-https://drive.google.com/uc?id=109zOfNiuWce0aT-j7FEe9h8QyAmIrSMI
+
+
+
 
 ## Step 6
 - 🔭 API key credentials   [Program Registration Online](https://krishnendudalui.in.net/API_Consumer_p2/index.php/client/api_key_form)
@@ -73,13 +91,16 @@ https://drive.google.com/uc?id=109zOfNiuWce0aT-j7FEe9h8QyAmIrSMI
 
 
 
+
+
+
 # CodeIgniter REST API consumer -V2 Setup
 
 This guide will walk you through setting up two CodeIgniter projects: the first project acts as an API Provider (exposing data via a REST API), and the second project acts as an API Consumer (fetching data from the first project's API).
 
 ---
 
-## **Project 2: API consumer -V2**
+## **Project 2: API Provider-V2**
 
 ### Step 1: Download Local host  project
 - 🌱 Prject name  **REST API ,REST API CONSUMER in CI3 _V2 **
@@ -121,25 +142,26 @@ Password :1234
 
 ### Step 6: 
 - 🔭 API key credentials   [https://krishnendudalui.in.net/API_Consumer_p2/index.php/client/api_key_form ](https://krishnendudalui.in.net/API_Consumer_p2/index.php/client/api_key_form)
-![API key credentials image](assets/image/image_1.png)
+![API key credentials image](https://drive.google.com/uc?id=10UExw2RXUovKnmwsn_h7s8-aUPevE1mH)
+![Image 5](https://drive.google.com/uc?id=10MhcPw9WNKm-qESBHWi6RriYkDFBq4Yx)
 
 ### Step 7: 
 - 📝 List of Users [https://krishnendudalui.in.net/API_Consumer_p2/ApiClientController/get_users](https://krishnendudalui.in.net/API_Consumer_p2/ApiClientController/get_users)
 
-![List of Users image](assets/image/image-2.png)
+![List of Users image](https://drive.google.com/uc?id=10UHqAB7N5f_0i3laD8DmW5uj9Djf6g_W)
 ### Step 8: 
 - 👨‍💻 Add Employee  [https://krishnendudalui.in.net/API_Consumer_p2/client/store](https://krishnendudalui.in.net/API_Consumer_p2/client/store)
 
-![Add Employees image](assets/image/image-3.png)
+![Add Employees image](https://drive.google.com/uc?id=10V2Fru64GYbooeJkK9LiNPDD9o3ULd-_)
 ### Step 9: 
 - 🔭 Employee Details  [https://krishnendudalui.in.net/API_Consumer_p2/get-employee/49 ](https://krishnendudalui.in.net/API_Consumer_p2/get-employee/49)
-![Employee Details image](assets/image/image-4.png)
+![Employee Details image](https://drive.google.com/uc?id=10TeS5PeTtDTwtbj_A2wwyVSHu-nIhKwY)
 ### Step 10: 
 - 📝 Update Employee [https://krishnendudalui.in.net/API_Consumer_p2/load-update-form/49](https://krishnendudalui.in.net/API_Consumer_p2/load-update-form/49)
 
-![Update Employee image](assets/image/image-5.png)
+![Update Employee image](https://drive.google.com/uc?id=10W07hgSd_rdjmYb8NGPVVrEeOow-ngow)
 ### Step 11: 
 - 👨‍💻 Delete This Employee  [https://krishnendudalui.in.net/API_Consumer_p2/client/get_users](https://krishnendudalui.in.net/API_Consumer_p2/client/get_users)
 
-![Delete This Employee image](assets/image/image-6.png)
+![Delete This Employee image](https://drive.google.com/uc?id=10MhcPw9WNKm-qESBHWi6RriYkDFBq4Yx)
 ### Step 12: 
